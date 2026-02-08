@@ -1,0 +1,25 @@
+{
+  "name": "rascunhos",
+  "version": "1.0.0",
+  "description": "rascunhos",
+  "homepage": "https://github.com/rkanaoka/rascunhos#readme",
+  "bugs": {
+    "url": "https://github.com/rkanaoka/rascunhos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkanaoka/rascunhos.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
