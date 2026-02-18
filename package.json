@@ -19,6 +19,7 @@
     "services:up": "docker compose -f infra/compose.yaml up -d",
     "services:stop": "docker compose -f infra/compose.yaml stop",
     "services:down": "docker compose -f infra/compose.yaml down",
+    "psql": "psql -h localhost -d local_db -p 5432 -U local_user",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
